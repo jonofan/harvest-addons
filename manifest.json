@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "Harvest addons",
+    "description": "Adds some in-browser functionality to extend Harvest.",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.harvestapp.com/*"],
+            "js": ["zepto.js","main.js"],
+            "css": ["main.css"]
+        }
+    ],
+    "web_accessible_resources": ["share-icon-white.png"]
+}

@@ -1,0 +1,71 @@
+
+#prev-day-entries {
+    position: relative;
+}
+
+#prev-day-entries #btn-yesterday-tasks {
+   
+    border-radius: 5px;
+    height: 60px;
+    line-height: normal;
+    margin-left: -85px;
+    margin-top: 100px;
+    outline: 0;
+    overflow: visible;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 60px;
+    
+}
+
+#prev-day-entries #btn-yesterday-tasks:before {
+    background-image: url('chrome-extension://__MSG_@@extension_id__/share-icon-white.png');
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    height: 70%;
+    margin-left: 9px;
+    margin-top: 2px;
+ 
+    vertical-align: middle;
+    width: 70%;
+}
+
+#prev-day-entries #btn-yesterday-tasks>.text {
+    color: #aaa;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Arial, Verdana, "Nimbus Sans L", sans-serif;
+    font-weight: 500;
+    left: 0;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    text-shadow: none;
+    top: 68px;
+    white-space: nowrap;
+    width: 59px;
+}
+
+#prev-day-entries ul {
+    display:none;
+	position:absolute; left:30px; top:-30px; z-index:999;
+	width:300px;
+	margin:0; padding:10px; list-style:none;
+	background:#fff; color:#333;
+	-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;
+	-moz-box-shadow:0 0 5px #999; -webkit-box-shadow:0 0 5px #999; box-shadow:0 0 5px #999
+}
+
+#prev-day-entries ul li {
+    padding:10px;
+	border-bottom: solid 1px #ccc;
+}
+
+#prev-day-entries ul li:hover {
+    background:#EC6603; 
+    color:#fff;
+}
